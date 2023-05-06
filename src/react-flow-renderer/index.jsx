@@ -11,7 +11,7 @@ import ReactFlow, {
 import { nodeTypes } from "./Nodes";
 
 const ReactFlowRenderer = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const [elements, setElements] = useState([]);
 
